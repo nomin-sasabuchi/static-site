@@ -1,0 +1,31 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "eslint.enable": true,
+  "stylelint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "cSpell.words": [
+    "cleancss",
+    "gulpfile",
+    "hiragino",
+    "index",
+    "js",
+    "mincho",
+    "mixins",
+    "smacss",
+    "stylelint",
+    "tailwindcss",
+    "tyellint",
+    "yu"
+  ]
+}
+/*
+参考
+https://blog.gaji.jp/2020/08/28/4877/
+*/

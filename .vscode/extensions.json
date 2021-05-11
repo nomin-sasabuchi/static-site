@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "stylelint.vscode-stylelint",
+    "dbaeumer.vscode-eslint",
+    "heybourn.headwind",
+    "bradlc.vscode-tailwindcss",
+    "mblode.twig-language-2",
+    "cpylua.language-postcss",
+  ]
+}
