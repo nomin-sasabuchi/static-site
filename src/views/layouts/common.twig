@@ -1,0 +1,17 @@
+{% import _self as self %}
+{% macro body(extra_class, attrs) %}
+	<body {{attrs}} class="min-h-screen flex flex-col leading-normal text-black text-14 font-yu-gothic {{extra_class}}">
+{% endmacro %}
+<!DOCTYPE html>
+<html lang="ja">
+  <head></head>
+  {% block body %}
+    {{ self.body() }}
+  {% endblock %}
+		<header></header>
+		<main class="pb-40 pc:pb-80">
+      {% block main %}{% endblock %}
+    </main>
+		<footer></footer>
+	</body>
+</html>

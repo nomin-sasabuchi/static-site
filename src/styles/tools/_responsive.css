@@ -1,0 +1,24 @@
+/* =================== Media Query - Responsive ================== */
+@define-mixin media-min $breakpoint {
+  @media (min-width: $breakpoint) {
+    @mixin-content;
+  }
+}
+
+@define-mixin media-max $breakpoint {
+  @media (max-width: $breakpoint) {
+    @mixin-content;
+  }
+}
+
+@define-mixin media-pc {
+  @mixin media-min 769px {
+    @mixin-content;
+  }
+}
+
+@define-mixin media-sp {
+  @mixin media-max 768px {
+    @mixin-content;
+  }
+}
